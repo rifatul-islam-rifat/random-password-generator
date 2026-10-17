@@ -1,0 +1,79 @@
+/* common css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primaryFont:  "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+ul,ol{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--primaryFont);
+    
+    
+}
+
+.container{
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.randomPassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.inputBox{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    
+    
+}
+
+.randomPassword h2, .randomPassword input{
+    border: none;
+    outline: none;
+    
+}
+
+.inputBox i{
+    cursor: pointer;
+}
+
+
+.randomPassword button{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 1rem 1.3rem;
+    border-radius: 6px;
+    font-size: 1.2rem;
+}
+
+.randomPassword #btn{
+    cursor: pointer;
+}
